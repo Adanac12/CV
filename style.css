@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Glacial Indifference', sans-serif;
+    color: #47167D;
+}
+.traitEndessous {
+    padding-bottom: 20px;
+    border-bottom: 2px solid gray;
+    width: fit-content;
+}
+header{
+    margin-left: 20px;
+}
+#formation{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid gray;
+    width: 700px;
+}
+
+#container{
+    display: flex;
+    margin-left: 20px;
+    margin-top: -30px;
+}
+#premier{
+    padding-right: 70px;
+}
+#deuxieme{
+    margin-left: 90px;
+}
+#container_titre{
+    display: flex;
+    margin-left: 20px;
+}
+
+#container_titre h2{
+    margin-right: 50px;
+}
+
+#exp {
+    padding-bottom: 20px;
+    border-bottom: 2px solid gray;
+}
+
+#comp {
+    padding-bottom: 20px;
+    border-bottom: 2px solid gray;
+    width: 321px;
+    margin-left: 110px;
+}
+#stage {
+    margin-right: 100px;
+}
+.barre-verticale {
+    position: absolute;
+    margin-left: 320px;
+    width: 2px;
+    background-color: gray;
+    height: 580px;
+    margin-top: 30px;
+}
+.para {
+    font-size: 13px;
+}
+ul {
+    margin-top: -10px;
+}
+#inter {
+    margin-top: -32px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid gray;
+    width: 325px;
+}
+
+header {
+    position: relative; /* Définit le conteneur comme une référence de position */
+    display: inline-block; /* Ajuste la taille du conteneur à son contenu */
+    margin-left: -6px;
+    margin-top: -4px;
+  }
+  
+  .texte {
+    position: absolute; /* Positionne le texte de façon absolue à l'intérieur du conteneur */
+    top: 35%; /* Ajuste la position verticale du texte */
+    left: 30%; /* Ajuste la position horizontale du texte */
+    transform: translate(-50%, -50%); /* Centre le texte par rapport au conteneur */
+    color: #fff; /* Couleur du texte */
+  
+    /* Ajoutez d'autres styles CSS selon vos besoins */
+  }
+
+#fond {
+    position: absolute;
+    width: 200px;
+    margin-left: 600px;
+    margin-top: -110px;
+}
+
+#logo {
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 235px;
+}
+
+#pp {
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 50px;
+    width: 150px;
+    border-radius: 50%;
+      
+}
+  
